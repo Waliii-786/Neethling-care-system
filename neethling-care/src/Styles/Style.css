@@ -1,0 +1,143 @@
+body {
+    font-family: 'Rubik', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.form-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.basic-input{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+}
+
+.form-group textarea {
+    min-height: 140px;
+}
+
+.form-group input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 86, 179, 0.2);
+}
+
+.medicine {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.medicine img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.medicine img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-appointment-btn {
+    display: inline-block;
+    padding: 14px 24px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    background-color: #1A8EFD;
+    font-size: 18px;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all 0.4s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text-appointment-btn:hover {
+    color: #1A8EFD;
+    background-color: #ffffff;
+    border: 1px solid #1A8EFD;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(26, 142, 253, 0.2);
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    .text-appointment-btn {
+        width: 100%;
+    }
+}

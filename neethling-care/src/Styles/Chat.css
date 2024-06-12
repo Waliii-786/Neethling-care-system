@@ -1,0 +1,69 @@
+/* Chatbot.css */
+
+/* Chat container */
+.body {
+    margin: 10px;
+}
+.chat-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Add scrollbar if content exceeds container height */
+}
+
+/* Chat message */
+.chat-message {
+    margin-bottom: 15px;
+}
+
+/* User message */
+.user-message {
+    background-color: #1A8EFD;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    max-width: 70%;
+    align-self: flex-end; /* Align to right for user messages */
+}
+
+/* Bot message */
+.bot-message {
+    background-color: #ECF2FF;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    max-width: 70%;
+    align-self: flex-start; /* Align to left for bot messages */
+}
+
+/* Input field */
+.chat-input {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Send button */
+.send-btn {
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1A8EFD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-btn:hover {
+    background-color: #156DB5;
+}
+
+/* Add more styles as needed */

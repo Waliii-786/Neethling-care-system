@@ -1,0 +1,37 @@
+/* Slider container */
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Slide */
+.slick-slide img {
+    width: 100%; /* Make images fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Set maximum height to ensure consistency */
+}
+
+/* Dots */
+.slick-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Individual dot */
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+}
+
+/* Active dot */
+.slick-dots li button {
+    font-size: 10px;
+    color: #000;
+}
+
+.slick-dots li.slick-active button {
+    color: #fff; /* Change the color of the active dot */
+}
